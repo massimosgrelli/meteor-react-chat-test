@@ -1,5 +1,5 @@
 import { Meteor } from 'meteor/meteor';
-import Messages from '/imports/api/messages';
+import Messages from '/imports/api/messages.collections';
 
 Meteor.startup(() => {
   if (Messages.find().count() === 0) {
