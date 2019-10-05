@@ -12,7 +12,7 @@ class MessagesList extends Component {
   render() {
     let ret;
     if (this.props.loading) {
-      ret = <div className="text-center mt-5 loading">Be patient I'm loading...</div>
+      ret = <div className="text-center mt-5 loading">Be patient I'm loading with React...</div>
     } else {
       const msgs = this.props.messagesArray;
       ret = (
